@@ -1,0 +1,52 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;}
+
+body{
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;}
+
+.weather-app{
+background:white;
+padding:30px;
+border-radius:20px;
+text-align:center;
+width:350px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);}
+
+h1{
+margin-bottom:25px;
+}
+
+input{
+width:100%;
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:16px;
+margin-bottom:10px;}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1976d2;
+}
+
+#weatherResult {
+    margin-top: 25px;
+}
+
